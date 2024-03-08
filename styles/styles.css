@@ -1,0 +1,20 @@
+div {
+    color: white;
+    background-color: black;
+  }
+
+  * {
+    font-display: white;
+  }
+  
+  p {
+    color: red;
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+
+  h3 {
+    font-style: italic;
+  }
