@@ -36,6 +36,10 @@ p {
     color: red;
   }
 
+  .body-color {
+    background-color: gray;
+  }
+
 .foot {
   text-align: center;
   font-size: 15px;
