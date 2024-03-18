@@ -1,7 +1,14 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 * {
     color: white;
     background-color: black;
     text-align: center;
+    margin: 0px;
     padding: 0px;
   }
 
