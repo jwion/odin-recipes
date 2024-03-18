@@ -13,13 +13,13 @@
     text-align: center;
   }
 
-#no-order {
+.no-order {
   list-style-position: inside; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 10px auto;
 }
 
-#ordered {
+.ordered {
   list-style-position: inside;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 10px auto;
