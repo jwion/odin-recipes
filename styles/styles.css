@@ -10,6 +10,9 @@
     text-align: center;
     margin: 0px;
     padding: 0px;
+    /*The below lines are experimental flex declarations*/
+    display: flex;
+    flex-direction: column;
   }
 
   .fonts {
@@ -20,10 +23,22 @@
     text-align: center;
   }
 
+  /*The below lines are experimental flex declarations*/
+  .image-flex {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+  }
+
 .no-order {
   list-style-position: inside; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 10px auto;
+  /*The below lines are experimental flex declarations*/
+  flex: 0 1 auto;
+  align-content: center;
 }
 
 .ordered {
@@ -36,7 +51,7 @@ p {
     color: red;
   }
 
-  .body-color {
+.body-color {
     background-color: gray;
   }
 
