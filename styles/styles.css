@@ -35,7 +35,8 @@
 .no-order {
   list-style-position: inside; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 10px auto;
+  margin: 5px auto;
+  padding: 5px;
   /*The below lines are experimental flex declarations*/
   flex: 0 1 auto;
   align-content: center;
@@ -44,7 +45,8 @@
 .ordered {
   list-style-position: inside;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 10px auto;
+  margin: 5px auto;
+  padding: 5px;
 }
 
 p {
@@ -66,9 +68,16 @@ p {
 
 h1 {
     font-weight: bold;
-    margin: 10px auto;
+    margin: 10x auto;
+    padding: 10px;
   }
 
 h3 {
     font-style: italic;
+    padding: 5px;
   }
+
+li {
+  margin: auto;
+  padding: 3px 5px;
+}
