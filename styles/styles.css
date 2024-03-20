@@ -27,23 +27,25 @@
     text-align: center;
   }
 
-  /*The below lines are experimental flex declarations*/
+  /*The below lines are experimental flex declarations
   .image-flex {
     display: flex;
-    flex: 0 1 auto;
+    flex: 1;
+    align-self: auto;
+    /* temp comment
     justify-content: center;
     margin: auto;
     padding: 10px;
-  }
+  }*/
 
 .no-order {
   list-style-position: inside; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 5px auto;
+  /*margin: 5px auto;*/
   padding: 5px;
   /*The below lines are experimental flex declarations*/
   flex: 0 1 auto;
-  align-content: center;
+  align-self: auto;
 }
 
 .ordered {
@@ -51,6 +53,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 5px auto;
   padding: 5px;
+  flex: 1;
+  align-self: auto;
 }
 
 p {
@@ -70,6 +74,10 @@ p {
   margin-bottom: 10px;
 }
 
+.shadowed {
+  box-shadow: 3px 3px 5px #888888;
+}
+
 h1 {
     font-weight: bold;
     margin: 10x auto;
@@ -84,4 +92,17 @@ h3 {
 li {
   margin: auto;
   padding: 3px 5px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  height: 100vh; /* Make the container full viewport height */
+}
+
+img {
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  max-height: 100%; /* Ensure the image doesn't exceed the container height */
+  height: auto; /* Maintain aspect ratio while resizing */
 }
