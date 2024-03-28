@@ -10,9 +10,6 @@
     text-align: center;
     margin: 0px;
     padding: 0px;
-    /*The below lines are experimental flex declarations*/
-    display: flex;
-    flex-direction: column;
   }
 
   html {
@@ -43,9 +40,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   /*margin: 5px auto;*/
   padding: 5px;
-  /*The below lines are experimental flex declarations*/
+  /*The below lines are experimental flex declarations
   flex: 0 1 auto;
-  align-self: auto;
+  align-self: auto;*/
 }
 
 .ordered {
@@ -53,8 +50,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 5px auto;
   padding: 5px;
+  /* Flex experimentation 
   flex: 1;
-  align-self: auto;
+  align-self: auto;*/
 }
 
 p {
@@ -93,14 +91,14 @@ li {
   margin: auto;
   padding: 3px 5px;
 }
-
+/* Breaks page image
 .flex-container {
   display: flex;
-  justify-content: center; /* Center the image horizontally */
-  align-items: center; /* Center the image vertically */
-  height: 100vh; /* Make the container full viewport height */
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
 }
-
+*/
 img {
   max-width: 100%; /* Ensure the image doesn't exceed the container width */
   max-height: 100%; /* Ensure the image doesn't exceed the container height */
